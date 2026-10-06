@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EXA GAME</title>
+  <style>
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial,sans-serif;background:#0b1020;color:#fff}
+    header{padding:28px 18px;text-align:center;background:linear-gradient(135deg,#151c35,#263a72)}
+    h1{margin:0;font-size:36px}
+    header p{margin:8px 0 0;color:#cbd5ff}
+    nav{display:flex;gap:8px;overflow:auto;padding:12px;background:#11182d}
+    nav a{color:#fff;text-decoration:none;background:#202b4d;padding:10px 14px;border-radius:20px;white-space:nowrap}
+    main{max-width:900px;margin:auto;padding:20px}
+    .hero{padding:24px;border-radius:18px;background:#151d35;margin-bottom:20px}
+    .hero h2{margin-top:0}
+    .games{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+    .card{background:#151d35;border-radius:16px;padding:18px;border:1px solid #293556}
+    .cover{height:130px;border-radius:12px;background:linear-gradient(135deg,#303f72,#111827);display:flex;align-items:center;justify-content:center;font-size:42px;margin-bottom:14px}
+    .card h3{margin:8px 0}
+    .card p{color:#b9c2dc;font-size:14px}
+    .btn{display:block;text-align:center;text-decoration:none;background:#3b82f6;color:#fff;padding:12px;border-radius:10px;font-weight:bold;margin-top:14px}
+    footer{text-align:center;padding:30px;color:#8f9ab8}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🎮 EXA GAME</h1>
+  <p>Jeux, astuces et téléchargements légaux</p>
+</header>
+
+<nav>
+  <a href="#">Accueil</a>
+  <a href="#android">Android</a>
+  <a href="#psp">PSP</a>
+  <a href="#vita">Vita / Homebrew</a>
+  <a href="#astuces">Astuces</a>
+</nav>
+
+<main>
+  <section class="hero">
+    <h2>Bienvenue sur EXA GAME</h2>
+    <p>Découvre des jeux gratuits, des homebrews, des démos et des astuces gaming.</p>
+  </section>
+
+  <h2 id="android">🔥 Jeux disponibles</h2>
+
+  <section class="games">
+    <article class="card">
+      <div class="cover">🎮</div>
+      <h3>Jeu gratuit #1</h3>
+      <p>Plateforme : Android<br>Taille : à préciser</p>
+      <a class="btn" href="LIEN_DU_JEU">📥 Télécharger</a>
+    </article>
+
+    <article class="card">
+      <div class="cover">🕹️</div>
+      <h3>Homebrew #2</h3>
+      <p>Plateforme : PSP / Vita<br>Taille : à préciser</p>
+      <a class="btn" href="LIEN_DU_JEU">📥 Télécharger</a>
+    </article>
+
+    <article class="card" id="psp">
+      <div class="cover">⚡</div>
+      <h3>Démo #3</h3>
+      <p>Jeu gratuit ou démo officielle.</p>
+      <a class="btn" href="LIEN_DU_JEU">📥 Télécharger</a>
+    </article>
+  </section>
+
+  <h2 id="astuces">💡 Astuces</h2>
+  <p>Ajoute ici tes tutoriels : émulateurs, réglages, commandes et conseils.</p>
+</main>
+
+<footer>
+  © 2026 EXA GAME — Tous droits réservés.
+</footer>
+
+</body>
+</html>
